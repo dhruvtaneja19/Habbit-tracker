@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Habit Tracker",
+    "slug": "habit-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "habittracker",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dhruvcodes.habittracker"
+    },
+    "android": {
+      "package": "com.dhruvcodes.habittracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "appwriteEndpoint": "https://cloud.appwrite.io/v1",
+      "appwriteProjectId": "6862bd32000e11109ac9",
+      "appwritePlatform": "com.dhruvcodes.habittracker",
+      "databaseId": "6862c1b6003103935ee4",
+      "usersCollectionId": "6863c6de001fe39e0413",
+      "habitsCollectionId": "6863c6de001fe39e0414",
+      "completionsCollectionId": "6863c6de001fe39e0415",
+      "eas": {
+        "projectId": "b663d787-f08a-4bb5-b753-38635467d84a"
+      }
+    },
+    "owner": "dhruv_19"
+  }
+}
